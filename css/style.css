@@ -1,0 +1,278 @@
+
+
+         /*common part*/
+
+ body {
+ 	font-family: sans-serif;
+ 	font-size: 16px;
+ 	font-weight: 400;
+ 	color: white;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+ 			/*header start*/
+ header {
+ 	background-color: #121b2a;
+ 	overflow: hidden;
+
+
+ }
+ .wrapper {
+ 	width: 90%;
+ 	/*border: 1px solid red;*/
+ 	overflow: hidden;
+ 	margin: 0 auto;
+ }
+ .logo {
+ 	width: 11%;
+ 	float: left;
+
+ }
+ .logo img {
+ 	width: 100%;
+
+ }
+ .menu {
+ 	width: 70%;
+ 	float: right;
+
+ }
+ .menu ul {
+ 	float: right;
+ 	padding-top: 30px;
+
+ }
+ .menu ul li {
+ 	float: left;
+ 	list-style: none;
+
+ }
+ .menu ul li a {
+ 	float: left;
+ 	font-size: 16px;
+ 	color: white;
+ 	margin-right: 32px;
+ 	text-decoration: none;
+ 	transition: .3s;
+
+
+ }
+ .menu ul li a:hover {
+ 	color:  #0078bd ;
+ }
+ .menu ul li:last-child a {
+ 	margin-right: 0;
+ }
+
+ 						/*banner part start*/
+
+.banner {
+    background-image: url(fav.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+
+}
+
+.text {
+	width: 30%;
+	 padding: 400px 0 30px 0;
+
+}
+.text h2 {
+	font-size: 38px;
+	margin: 0;
+}
+.text h1 {
+	font-size: 40px;
+	color: #0078bd ;
+	margin: 0;
+
+}
+.text p {
+	line-height: 30px;
+	margin-top: 0;
+
+}
+
+
+.text button {
+	border: 1px solid #7aa0c7;
+	background-color: #7aa0c7;
+	color: white;
+	padding: 18px;
+	transition: .3s;
+}
+.text button:hover {
+	background-color: #0078bd;
+}
+
+					/*service start*/
+.service {
+	background-color: #121b2c;
+}
+.single {
+	float: left;
+    width: 30%;
+    padding: 56px 1.5% 50px 0;
+    margin-right: 25px
+}
+/*.single:nth-last-child(3) {
+	margin-right: 0;
+}*/
+.first {
+	border-right: 1px solid white;
+	background-color: #121b2a;
+}
+.second {
+	border-right: 1px solid white;
+}
+.title {
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.icon {
+	/*border: 1px solid pink;*/
+	float: left;
+	width: 20%;
+
+}
+.icon img {
+	width: 100%;
+
+}
+.icon_text {
+	/*border: 1px solid white;*/
+	width: 50%;
+	float: left;
+	text-transform: capitalize;
+
+}
+.icon_text h2 {
+	width: 100%;
+	font-size: 24px;
+	
+
+}
+.spa {
+	color: #0078bd;
+}
+
+.graf {
+	width: 90%;
+}
+.graf p{
+	line-height: 25px;
+
+}
+				/*service end*/
+
+				/*about me start*/
+.about_me {
+	background-color: #040811;
+
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+
+}
+.about {
+	padding: 70px 0;
+	color: #e5e6e8;
+
+	
+
+}
+.first1 {
+	float: left;
+	width: 30%;
+	/*border: 1px solid red;*/
+	margin-right: 25px;
+	line-height: 25px;
+
+}
+.first1 h3 {
+
+
+}
+.s1 {
+	color: #0073b3;
+}
+.first1 address {
+	line-height: 25px;
+
+}
+.iphone {
+	width: 10%;
+	float: left;
+	margin-right: 25px;
+}
+.iphone img {
+	width: 100%;
+}
+.playstore {
+	width: 20%;
+	float: left;
+
+}
+.playstore h2 {
+
+}
+.playstore img {
+
+}
+				/*FOOter start*/
+
+footer {
+	background-color: #121b2c;
+
+}
+#fot {
+	width: 70%;
+
+
+}
+#fot ul {
+ 	padding-top: 30px;
+
+}
+#fot ul li {
+	margin-top: 25px;
+	float: left;
+ 	list-style: none;
+ 	border-right: 1px solid white;
+
+
+}
+#fot ul:last-child{
+	border-right: none;
+}
+#fot ul li a {
+ 	font-size: 16px;
+ 	color: white;
+ 	margin: 0 32px 0 32px;
+ 	text-decoration: none;
+}
+#fot ul li:last-child a {
+	margin-right: 0;
+}
+#last1 {
+	width: 15%;
+	float: left;
+}
+#last1 img {
+	100%
+}
+#last {
+	width: 16%;
+	float: left;
+}
+#last img {
+	100%
+}
